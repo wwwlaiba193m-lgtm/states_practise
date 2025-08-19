@@ -1,0 +1,44 @@
+:root {
+  --backgroundcolor: black;
+  --color: white;
+}
+
+/* Dark Theme */
+.dark {
+  background-color: var(--backgroundcolor);
+  color: var(--color);
+  padding: 10px 20px;
+}
+.dark .container .img-card {
+  border: 1px solid white;
+}
+
+/* Light Theme */
+.light {
+  background-color: var(--color);
+  color: var(--backgroundcolor);
+  padding: 10px 20px;
+}
+.light .container .img-card {
+  border: 1px solid var(--backgroundcolor);
+}
+
+.container {
+  width: 96%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.img-card {
+  width: 22%;
+  height: auto;
+  padding: 10px;
+}
+.img-card img {
+  width: 100%;
+}
+.icons {
+  font-size: 50px;
+  margin: 20px auto;
+}
