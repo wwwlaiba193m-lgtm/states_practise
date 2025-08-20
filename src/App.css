@@ -1,9 +1,8 @@
-:root {
+/* :root {
   --backgroundcolor: black;
   --color: white;
 }
 
-/* Dark Theme */
 .dark {
   background-color: var(--backgroundcolor);
   color: var(--color);
@@ -13,7 +12,6 @@
   border: 1px solid white;
 }
 
-/* Light Theme */
 .light {
   background-color: var(--color);
   color: var(--backgroundcolor);
@@ -41,4 +39,16 @@
 .icons {
   font-size: 50px;
   margin: 20px auto;
+} */
+
+
+
+.container .row .col-4 img{
+  height: 120px;
+}
+span{
+  font-size: 10px;
+}
+small{
+  font-size: 10px;
 }
