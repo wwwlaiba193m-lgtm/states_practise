@@ -2,37 +2,7 @@ import React from "react";
 
 export default function ApiCards() {
   const articles = [
-    {
-      source: {
-        id: null,
-        name: "Mezha.media",
-      },
-      author: "Українська правда",
-      title:
-        "Корейські вчені створили акумулятор із рекордною щільністю та довговічністю",
-      description: "",
-      url: "https://mezha.media/news/koreyski-vcheni-rozroblyayut-noviy-akumulyator-304141/",
-      urlToImage:
-        "https://img.mezha.media/mezhaprod/images/doc/e/7/274586/e7b7cf7fa10e0b9769d8550ac81246c3.jpeg",
-      publishedAt: "2025-08-19T06:06:53Z",
-      content:
-        ', . NotebookCheck Advanced Science.\r\n"\' -" (IEE), . , - .\r\nIEE- 403,7 ·/ 1300 ·/. , Tesla 4680 241 ·/ 643 ·/.\r\nIEE . , , , . IEE , .\r\n, . , . , .\r\n, , .',
-    },
-    {
-      source: {
-        id: null,
-        name: "Feber.se",
-      },
-      author: "Roger Åberg",
-      title: "Det här är längre och större Tesla Model YL",
-      description:
-        "Plats för sex personer\n\n\n\n\n\n\nRykten om en längre och större Tesla Model Y med plats för sex började simma runt på internet för ett tag sedan. Nu är den här, och första landet att få den är Kina. \n\nNamnet är Tesla Model YL och det handlar alltså om en modell s…",
-      url: "https://feber.se/bil/det-har-ar-langre-och-storre-tesla-model-yl/482456/",
-      urlToImage: "https://static.feber.se/article_images/62/54/25/625425.jpeg",
-      publishedAt: "2025-08-19T06:00:00Z",
-      content:
-        "Teknik\r\nMotor\r\nSamhälle\r\nSpel\r\nPopkultur\r\nTjock\r\n2 idag\r\n28 igår\r\nTipsa!\r\nSkaffa Feber+\r\nNexon använde streamers utseende utan tillstånd\r\nAI-klon gjorde reklam för The First Descendant\r\n31.2°\r\n0\r\nAnn… [+26676 chars]",
-    },
+   
     {
       source: {
         id: null,

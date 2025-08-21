@@ -6,7 +6,6 @@
 .dark {
   background-color: var(--backgroundcolor);
   color: var(--color);
-  padding: 10px 20px;
 }
 .dark .container .img-card {
   border: 1px solid white;
@@ -19,7 +18,7 @@
 }
 .light .container .img-card {
   border: 1px solid var(--backgroundcolor);
-}
+} */
 
 .container {
   width: 96%;
@@ -39,16 +38,4 @@
 .icons {
   font-size: 50px;
   margin: 20px auto;
-} */
-
-
-
-.container .row .col-4 img{
-  height: 120px;
-}
-span{
-  font-size: 10px;
-}
-small{
-  font-size: 10px;
 }
