@@ -1,7 +1,8 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import Display from "./Api's/Display";
+import GetApi from "./Api's Data/GetApi";
+// import Display from "./Api's/Display";
 // import Navbar from "./Pages/Navbar";
 // import Home from "./Pages/Home";
 // import ApiCards from "./ApiCards";
@@ -13,10 +14,11 @@ function App() {
   // a =   {age <= 20 ? (a = "child") : (a = " young")} 
   return (
     <>
-      {/* <Navbar /> */}
-      {/* <Home/> */}
+      {/* <Navbar /> 
+      <Home/> */}
       {/* <ApiCards/> */}
-      <Display/>
+      {/* <Display/> */}
+      <GetApi logo = "coder"/>
     </>
   );
 }

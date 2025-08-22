@@ -1,4 +1,4 @@
-/* :root {
+:root {
   --backgroundcolor: black;
   --color: white;
 }
@@ -18,7 +18,7 @@
 }
 .light .container .img-card {
   border: 1px solid var(--backgroundcolor);
-} */
+}
 
 .container {
   width: 96%;
