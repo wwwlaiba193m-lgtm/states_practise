@@ -39,3 +39,59 @@
   font-size: 50px;
   margin: 20px auto;
 }
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav ul li{
+  list-style: none;
+  display: inline;
+}
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  margin: 10px 20px;
+  padding: 10px 20px;
+}
+nav ul li a:hover{
+  background-color: black;
+  color: white;
+}
+.notfound h1{
+  font-size: 120px;
+  text-align: center;
+  color: black;
+  font-weight: 900;
+  background: linear-gradient(red, green, blue);
+}
+.notfound h3{
+    font-size: 50px;
+  text-align: center;
+  color: black;
+  font-weight: 900;
+  background: linear-gradient(red, green, blue);
+}
+.block{
+  height: 50vh;
+  width: 90%;
+  background-color: aqua;
+  position: absolute;
+  left: 0px;
+  margin: 10px 5%;
+  padding: 10px;
+  display: none;
+}
+nav ul li:hover .block{
+    display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.box{
+  height: 45vh;
+  width: 20%;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 10px 10px 10px black;
+}
